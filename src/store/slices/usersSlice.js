@@ -7,8 +7,8 @@ import { removeUser } from "../thunks/removeUser";
 const usersSlice = createSlice({
   name: "users",
   initialState: {
-    data: [],
     isLoading: false,
+    data: [],
     error: null,
   },
   extraReducers(builder) {
@@ -42,7 +42,9 @@ const usersSlice = createSlice({
     });
     builder.addCase(removeUser.fulfilled, (state, action) => {
       state.isLoading = false;
-      state.data.push(action.payload)
+      state.data = state.data.filter((user) => {
+        return user.id !== action.payload.id
+      });
     });
     builder.addCase(removeUser.rejected, (state, action) => {
       state.isLoading = false;

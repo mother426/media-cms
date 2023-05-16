@@ -32,14 +32,7 @@ function UserList() {
     content = <div>error...</div>;
   } else {
     content = data.map((user) => {
-      return <UserItem key={user.id} user={user}/>
-        // return (
-        //   <div ket={user.id} className="mb-2 border rounded">
-        //     <div className="flex p-2 justify-between items-center cursor-pointer">
-        //       {user.name}
-        //     </div>
-        //   </div>
-        // );
+      return <UserItem key={user.id} user={user}/>;
       }); 
   }
 

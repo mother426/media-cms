@@ -1,10 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "john"
-    },
-    {
       "name": "Bernadette Parker",
       "id": 2
     },
@@ -87,6 +83,10 @@
     {
       "name": "Ian Kunde",
       "id": 22
+    },
+    {
+      "name": "Blanca Hermann",
+      "id": 23
     }
   ],
   "albums": [],
