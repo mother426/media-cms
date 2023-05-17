@@ -1,14 +1,6 @@
 {
   "users": [
     {
-      "name": "Bernadette Parker",
-      "id": 2
-    },
-    {
-      "name": "Jodi Feil",
-      "id": 3
-    },
-    {
       "name": "Candice Abernathy",
       "id": 4
     },
@@ -39,10 +31,6 @@
     {
       "name": "Mona Lebsack",
       "id": 11
-    },
-    {
-      "name": "Amanda Fahey",
-      "id": 12
     },
     {
       "name": "Darrin Rempel",
