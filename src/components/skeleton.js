@@ -1,4 +1,4 @@
-import classNames from "classnames";
+import classNames from 'classnames';
 
 function Skeleton({ times, className }) {
   const outerClassNames = classNames(
@@ -6,7 +6,8 @@ function Skeleton({ times, className }) {
     'overflow-hidden',
     'bg-gray-200',
     'rounded',
-    'mb-2.5'
+    'mb-2.5',
+    className
   );
   const innerClassNames = classNames(
     'animate-shimmer',
@@ -28,6 +29,7 @@ function Skeleton({ times, className }) {
         </div>
       );
     });
+
   return boxes;
 }
 

@@ -1,8 +1,7 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
-import { usersReducer } from "./slices/usersSlice";
-import { setupListeners } from "@reduxjs/toolkit/query";
-import { albumsApi } from "./apis/albumsApi";
-import { getDefaultNormalizer } from "@testing-library/react";
+import { configureStore } from '@reduxjs/toolkit';
+import { setupListeners } from '@reduxjs/toolkit/query';
+import { usersReducer } from './slices/usersSlice';
+import { albumsApi } from './apis/albumsApi';
 
 export const store = configureStore({
   reducer: {
@@ -16,6 +15,7 @@ export const store = configureStore({
 
 setupListeners(store.dispatch);
 
-export * from "./thunks/fetchUsers";
-export * from "./thunks/createUser";
-export * from "./thunks/removeUser";
+export * from './thunks/fetchUsers';
+export * from './thunks/addUser';
+export * from './thunks/removeUser';
+export { useFetchAlbumsQuery } from './apis/albumsApi';
