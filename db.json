@@ -1,84 +1,86 @@
 {
   "users": [
     {
-      "name": "Cynthia Weimann",
-      "id": 7
+      "name": "Angie Fisher",
+      "id": 1
     },
     {
-      "name": "Terrence Okuneva",
-      "id": 8
-    },
-    {
-      "name": "Christian Stroman",
-      "id": 9
-    },
-    {
-      "name": "April Collins",
-      "id": 10
-    },
-    {
-      "name": "Nadine Lehner",
-      "id": 11
-    },
-    {
-      "name": "Ira Gutmann MD",
-      "id": 12
-    },
-    {
-      "name": "Ms. Margarita Nikolaus",
-      "id": 13
-    },
-    {
-      "name": "Beulah Weissnat",
-      "id": 14
+      "name": "Guadalupe Kunde",
+      "id": 2
     }
   ],
   "albums": [
     {
-      "userId": 13,
-      "title": "Intelligent Wooden Mouse",
+      "userId": 1,
+      "title": "Modern Steel Table",
       "id": 1
     },
     {
-      "userId": 13,
-      "title": "Rustic Wooden Bacon",
+      "userId": 2,
+      "title": "Bespoke Soft Mouse",
       "id": 2
-    },
+    }
+  ],
+  "photos": [
     {
-      "userId": 13,
-      "title": "Unbranded Granite Tuna",
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5220",
       "id": 3
     },
     {
-      "userId": 8,
-      "title": "Ergonomic Fresh Chair",
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=93100",
       "id": 4
     },
     {
-      "userId": 10,
-      "title": "Fantastic Fresh Ball",
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=74653",
       "id": 5
     },
     {
-      "userId": 7,
-      "title": "Gorgeous Plastic Table",
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=21380",
       "id": 6
     },
     {
-      "userId": 7,
-      "title": "Practical Wooden Salad",
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=54309",
       "id": 7
     },
     {
-      "userId": 7,
-      "title": "Intelligent Granite Ball",
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=61250",
       "id": 8
     },
     {
-      "userId": 14,
-      "title": "Electronic Metal Pants",
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=88710",
       "id": 9
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=16140",
+      "id": 10
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=81166",
+      "id": 11
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=33397",
+      "id": 12
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=39036",
+      "id": 13
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=62702",
+      "id": 14
     }
-  ],
-  "photos": []
+  ]
 }
