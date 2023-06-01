@@ -27,6 +27,10 @@
     {
       "name": "Ms. Margarita Nikolaus",
       "id": 13
+    },
+    {
+      "name": "Beulah Weissnat",
+      "id": 14
     }
   ],
   "albums": [
@@ -69,6 +73,11 @@
       "userId": 7,
       "title": "Intelligent Granite Ball",
       "id": 8
+    },
+    {
+      "userId": 14,
+      "title": "Electronic Metal Pants",
+      "id": 9
     }
   ],
   "photos": []
