@@ -1,22 +1,6 @@
 {
   "users": [
     {
-      "name": "Miss Juanita Ryan",
-      "id": 2
-    },
-    {
-      "name": "Darrin Runolfsdottir",
-      "id": 3
-    },
-    {
-      "name": "Esther Smitham",
-      "id": 4
-    },
-    {
-      "name": "Nettie Spinka",
-      "id": 6
-    },
-    {
       "name": "Cynthia Weimann",
       "id": 7
     },
@@ -39,8 +23,53 @@
     {
       "name": "Ira Gutmann MD",
       "id": 12
+    },
+    {
+      "name": "Ms. Margarita Nikolaus",
+      "id": 13
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "userId": 13,
+      "title": "Intelligent Wooden Mouse",
+      "id": 1
+    },
+    {
+      "userId": 13,
+      "title": "Rustic Wooden Bacon",
+      "id": 2
+    },
+    {
+      "userId": 13,
+      "title": "Unbranded Granite Tuna",
+      "id": 3
+    },
+    {
+      "userId": 8,
+      "title": "Ergonomic Fresh Chair",
+      "id": 4
+    },
+    {
+      "userId": 10,
+      "title": "Fantastic Fresh Ball",
+      "id": 5
+    },
+    {
+      "userId": 7,
+      "title": "Gorgeous Plastic Table",
+      "id": 6
+    },
+    {
+      "userId": 7,
+      "title": "Practical Wooden Salad",
+      "id": 7
+    },
+    {
+      "userId": 7,
+      "title": "Intelligent Granite Ball",
+      "id": 8
+    }
+  ],
   "photos": []
 }
